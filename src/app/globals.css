@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #ffffff;
+  --surface: #1a2229;
+  --border: #1a2229;
+  --border-hover: #3E454C;
+  --text-primary: #3E454C;
+  --text-secondary: #ffffff;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-sans), sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
